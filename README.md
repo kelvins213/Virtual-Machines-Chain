@@ -22,9 +22,9 @@ Projeto Do Segundo Bimestre
 
 ```
 Tabela 1: Configurações de IPs da Rede e Nomes de Hosts
--------------------------------------------------- ---------------------------
-| DESCRIÇÃO |      IP      | nome do host |           FQDN         | apelido |
--------------------------------------------------- ---------------------------
+------------------------------------------------------------------------------
+| DESCRIÇÃO |      IP      | nome do host |          FQDN          | apelido |
+------------------------------------------------------------------------------
 | VM1-PC1   | 192.168.13.1 | srv-vm1-pc1  | vm1pc1-913.ifalara.net | VM1PC1  |
 | VM2-PC1   | 192.168.13.2 | srv-vm2-pc1  | vm2pc1-913.ifalara.net | VM2PC1  |
 | VM1-PC2   | 192.168.13.3 | srv-vm1-pc2  | vm1pc2-913.ifalara.net | VM1PC2  |
