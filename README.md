@@ -8,7 +8,7 @@ Projeto do Segundo Bimestre
 -----------------------------------------------------------------------|
 | rede        | 192.168.13.0     |                                     |
 | máscara     | 255.255.255.240  |                                     |
-| Gateway     | 192.168.13.31    |                                     |
+| Gateway     | 192.168.13.16    |                                     |
 | VM1-PC1     | 192.168.13.1     |   vm1pc1-913-grupo1.ifalara.net     |
 | VM2-PC1     | 192.168.13.2     |   vm2pc1-913-grupo1.ifalara.net     |
 | VM1-PC2     | 192.168.13.3     |   vm1pc2-913-grupo1.ifalara.net     |
