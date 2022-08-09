@@ -35,3 +35,8 @@ Tabela 1: Configurações de IPs da Rede e Nomes de Hosts
 | VM2-PC4   | 192.168.13.8 | srv-vm2-pc4  | vm2pc4-913.ifalara.net | VM2PC4  |
 ------------------------------------------------------------------------------
 ```
+
+
+<p><center> Figura 1:  Topologia de Rede Virtualizada para a execução do projeto.</center></p>   
+   <img src="topologia-proj.2b.png" alt="topologia de rede"
+	title="Figura 1: Topologia de rede virtualizada do projeto do 2º bimestre de serviços de redes" width="800" height="auto" />
