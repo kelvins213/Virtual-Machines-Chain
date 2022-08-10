@@ -31,8 +31,8 @@ Tabela 1: Configurações de IPs da Rede e Nomes de Hosts
 | VM2-PC2   | 192.168.13.4 | srv-vm2-pc2  | vm2pc2-913.ifalara.net | VM2PC2  |
 | VM1-PC3   | 192.168.13.5 | srv-vm1-pc3  | vm1pc3-913.ifalara.net | VM1PC3  |
 | VM2-PC3   | 192.168.13.6 | srv-vm2-pc3  | vm2pc3-913.ifalara.net | VM2PC3  |
-| VM1-PC4   | 192.168.13.7 | srv-vm1-pc4  | brasil.ifalara.net | VM1PC4  |
-| VM2-PC4   | 192.168.13.8 | srv-vm2-pc4  | holanda-913.ifalara.net | VM2PC4  |
+| VM1-PC4   | 192.168.13.7 | srv-vm1-pc4  | brasil.ifalara.net     | VM1PC4  |
+| VM2-PC4   | 192.168.13.8 | srv-vm2-pc4  | holanda-913.ifalara.net| VM2PC4  |
 ------------------------------------------------------------------------------
 ```
 
