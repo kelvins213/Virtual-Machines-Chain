@@ -45,7 +45,7 @@ Tabela 1: Configurações de IPs da Rede e Nomes de Hosts
 
 ### **3) Criando os Diretórios**
 
-3.1) Entrando no Usuário "redes"
+#### 3.1) Entrando no Usuário "redes"
 
 ```
 sudo redes
@@ -56,14 +56,14 @@ sudo redes
 <p><center> Figura 2:  Entrando no usuário "redes" - Inserindo a Senha.</center></p>   
 <img src="Imagens_Projeto913/image14.png" alt="Imagens" title="Figura 2:  Entrando no usuário "redes" - Inserindo a Senha." width="500" height="auto" />
 
-3.2) Verificar se possui os Diretórios
+#### 3.2) Verificar se possui os Diretórios
 
 ```
 /labredes/images/original
 /labredes/VM/913/<NomeDoAluno>
 ```
 
-3.3) Criar os diretórios
+#### 3.3) Criar os diretórios
 
 * No nosso caso, é necessário criar os diretórios /labredes /VM /913 /fulano.
 * Para isso, basta utilizar o comando "sudo mkdir" e o nome do diretório.
@@ -94,7 +94,7 @@ sudo mkdir fulano
 <img src="Imagens_Projeto913/image19.png" alt="Imagens" title="Figura 3:  Criando o Diretório /fulano." width="500" height="auto" />
 
 
-3.3) Adicionar o usuário "aluno" no grupo "redes"
+#### 3.4) Adicionar o usuário "aluno" no grupo "redes"
 
 ```
 sudo usermod -aG redes aluno
@@ -104,3 +104,35 @@ sudo usermod -aG redes aluno
 
 <p><center> Figura 8:  Adicionando "aluno" em "redes" - Inserindo Senha.</center></p> 
 <img src="Imagens_Projeto913/image39.png" alt="Imagens" title="Figura 8:  Adicionando "aluno" em "redes" - Inserindo Senha." width="500" height="auto" />
+
+* Modificar o dono da pasta labredes para o usuario nobody e grupo nogroup
+
+```
+sudo chown -R nobody:nogroup /labredes
+```
+<p><center> Figura 9: Modificando o dono da Pasta</center></p> 
+<img src="Imagens_Projeto913/image43.png" alt="Imagens" title="Figura 9: Modificando o dono da Pasta" width="500" height="auto" />
+
+* Alterando o proprietário de grupo do diretório /labredes para o grupo redes
+
+```
+sudo chgrp -R redes /labredes
+```
+<p><center> Figura 10: Alterando o proprietário</center></p> 
+<img src="Imagens_Projeto913/image41.png" alt="Imagens" title="Figura 10: Alterando o proprietário" width="500" height="auto" />
+
+* Alterando as permissões do diretório para escrita pelos membros do grupo
+```
+sudo chmod -R 771 /labredes 
+```
+<p><center> Figura 11: Alterando o proprietário -R 771</center></p> 
+<img src="Imagens_Projeto913/image24.png" alt="Imagens" title="Figura 11: Alterando o proprietário -R 771" width="500" height="auto" />
+
+* Listando os Grupos
+```
+getent group
+```
+<p><center> Figura 12: Listando os Grupos</center></p> 
+<img src="Imagens_Projeto913/image31.png" alt="Imagens" title="Figura 12: Listando os Grupos" width="500" height="auto" />
+
+
