@@ -148,3 +148,8 @@ getent group
 
 <p><center> Figura 14: Importando Appliance - Configurações</center></p> 
 <img src="Imagens_Projeto913/image40.png" alt="Imagens" title="Figura 14: Importando Appliance - Configurações" width="800" height="auto" />
+
+* Após as edições, clicar em ```Importar```.
+* 
+* Repetir o Processo 4 para criar a segunda VM.
+
