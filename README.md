@@ -191,11 +191,12 @@ getent group
          addresses: [192.168.13.<numeroVM1-PC1>/28]    # IP e Máscara do Host.
          gateway4: 192.168.13.1          # IP do Gateway
          dhcp4: false                  # dhcp4 false -> cliente DHCP está desabilitado, logo o utilizará o IP do campo 'addresses'
-    ```
+ ```
+         
 * Após, aplicar as configurações utilizando o comando ```sudo netplan apply```.
 
 #### 5.1) Configuração de IP da VM1-PC1
 
 
 <p><center> Figura 18: VM1-PC1</center></p> 
-<img src="Imagens_Projeto913/image10.png" alt="Imagens" title="Figura 18: VM1-PC1" width="600" height="auto" />
+<img src="Imagens_Projeto913/image10.png" alt="Imagens" title="Figura 18: VM1-PC1" width="600" height="auto"/>
