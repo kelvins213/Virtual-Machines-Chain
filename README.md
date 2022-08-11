@@ -231,3 +231,8 @@ sudo apt upgrade -y
 
 <p><center> Figura 23: Verificando e Ativando o UFW</center></p> 
 <img src="Imagens_Projeto913/image26.png" alt="Imagens" title="Figura 23: Verificando e Ativando o UFW" width="600" height="auto"/>
+
+* Após todo o processo, ao conectar, esta tela deve ser exibida.
+
+<p><center> Figura 24: SSH conectado </center></p> 
+<img src="Imagens_Projeto913/image16.png" alt="Imagens" title="Figura 24: SSH conectado" width="600" height="auto"/>
