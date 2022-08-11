@@ -168,7 +168,34 @@ getent group
 
 #### 4.3) Repetir os Passos Anteriores
 
+* Repetir os passos anteriores para criar a segunda VM.
 * Caso Tenha feito tudo corretamente, ambas as VM's deverão funcionar.
 
 <p><center> Figura 17: VM's funcionando</center></p> 
 <img src="Imagens_Projeto913/image3.png" alt="Imagens" title="Figura 17: VM's funcionando" width="800" height="auto" />
+
+### **5) Configurando o NETPLAN**
+
+* Utilizando o comando sudo nano.
+
+```sudo nano /etc/netplan/01-netcfg.yaml```
+
+* Após, inserir os IP's de acordo com a tabela.
+
+```
+   network:
+     version: 2
+     renderer: networkd
+     ethernets:
+       enp0s3:                           # nome da interface que está sendo configurada. Verifique com o comando 'ifconfig -a'
+         addresses: [192.168.13.<numeroVM1-PC1>/28]    # IP e Máscara do Host.
+         gateway4: 192.168.13.1          # IP do Gateway
+         dhcp4: false                  # dhcp4 false -> cliente DHCP está desabilitado, logo o utilizará o IP do campo 'addresses'
+    ```
+* Após, aplicar as configurações utilizando o comando ```sudo netplan apply```.
+
+#### 5.1) Configuração de IP da VM1-PC1
+
+
+<p><center> Figura 18: VM1-PC1</center></p> 
+<img src="Imagens_Projeto913/image10.png" alt="Imagens" title="Figura 18: VM1-PC1" width="600" height="auto" />
