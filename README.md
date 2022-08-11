@@ -25,12 +25,12 @@ Tabela 1: Configurações de IPs da Rede e Nomes de Hosts
 --------------------------------------------------------------------------------
 | DESCRIÇÃO |      IP      |  Nome do Host  |          FQDN          | Apelido |
 --------------------------------------------------------------------------------
-| VM1-PC1   | 192.168.13.1 | srv-vm1-pc1    | vm1pc1-913.ifalara.net | VM1PC1  |
-| VM2-PC1   | 192.168.13.2 | srv-vm2-pc1    | vm2pc1-913.ifalara.net | VM2PC1  |
-| VM1-PC2   | 192.168.13.3 | srv-vm1-pc2    | vm1pc2-913.ifalara.net | VM1PC2  |
-| VM2-PC2   | 192.168.13.4 | srv-vm2-pc2    | vm2pc2-913.ifalara.net | VM2PC2  |
-| VM1-PC3   | 192.168.13.5 | srv-vm1-pc3    | vm1pc3-913.ifalara.net | VM1PC3  |
-| VM2-PC3   | 192.168.13.6 | srv-vm2-pc3    | vm2pc3-913.ifalara.net | VM2PC3  |
+| VM1-PC1   | 192.168.13.1 | srv-vm1-pc1    | vm1pc1-913.ifalara.net | França  |
+| VM2-PC1   | 192.168.13.2 | srv-vm2-pc1    | vm2pc1-913.ifalara.net | Italia  |
+| VM1-PC2   | 192.168.13.3 | srv-vm1-pc2    | vm1pc2-913.ifalara.net |  Roma   |
+| VM2-PC2   | 192.168.13.4 | srv-vm2-pc2    | vm2pc2-913.ifalara.net | Grécia  |
+| VM1-PC3   | 192.168.13.5 | srv-vm1-pc3    | vm1pc3-913.ifalara.net |  Cuba   |
+| VM2-PC3   | 192.168.13.6 | srv-vm2-pc3    | vm2pc3-913.ifalara.net | Mexico  |
 | VM1-PC4   | 192.168.13.7 | VM1-PC4-Kelvin | VM1-PC4-Kelvin.net     | Brasil  |
 | VM2-PC4   | 192.168.13.8 | VM2-PC4-Kelvin | VM2-PC4-Kelvin.net     | Holanda |
 ------------------------------------------------------------------------------
