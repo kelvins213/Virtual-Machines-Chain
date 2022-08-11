@@ -48,7 +48,7 @@ Tabela 1: Configurações de IPs da Rede e Nomes de Hosts
 #### 3.1) Entrando no Usuário "redes"
 
 ```
-sudo redes
+su redes
 ```
 <p><center> Figura 1:  Entrando no usuário "redes".</center></p>   
 <img src="Imagens_Projeto913/image1.png" alt="Imagens" title="Figura 1:  Entrando no usuário "redes"." width="500" height="auto" />
@@ -138,6 +138,8 @@ getent group
 
 ### **4) Criando as VM's**
 
+#### 4.1) Importando o Arquivo
+
 * No VirtualBox, ir na aba ```Arquivos```, na segunda opção ```Importar Appliance```.
 
 <p><center> Figura 13: Importando Appliance</center></p> 
@@ -150,6 +152,14 @@ getent group
 <img src="Imagens_Projeto913/image40.png" alt="Imagens" title="Figura 14: Importando Appliance - Configurações" width="800" height="auto" />
 
 * Após as edições, clicar em ```Importar```.
-* 
-* Repetir o Processo 4 para criar a segunda VM.
+
+#### 4.2) Definindo as configurações de Rede
+
+* Selecionar a VM recem-criada e ir em ```Configurações``` -> ```Rede```.
+* Habilitar Placa de Rede.
+* Criar a Rede Interna.
+* Ir em ```Avançado``` e alterar o Endereço MAC.
+
+<p><center> Figura 15: Configurações de Rede das VM's</center></p> 
+<img src="Imagens_Projeto913/image18.png" alt="Imagens" title="Figura 15: Configurações de Rede das VM's" width="500" height="auto" />
 
