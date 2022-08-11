@@ -161,5 +161,14 @@ getent group
 * Ir em ```Avançado``` e alterar o Endereço MAC.
 
 <p><center> Figura 15: Configurações de Rede das VM's</center></p> 
-<img src="Imagens_Projeto913/image18.png" alt="Imagens" title="Figura 15: Configurações de Rede das VM's" width="500" height="auto" />
+<img src="Imagens_Projeto913/image5.png" alt="Imagens" title="Figura 15: Configurações de Rede das VM's" width="800" height="auto" />
 
+<p><center> Figura 16: Configurações de Rede das VM's - MAC</center></p> 
+<img src="Imagens_Projeto913/image18.png" alt="Imagens" title="Figura 16: Configurações de Rede das VM's - MAC" width="800" height="auto" />
+
+#### 4.3) Repetir os Passos Anteriores
+
+* Caso Tenha feito tudo corretamente, ambas as VM's deverão funcionar.
+
+<p><center> Figura 17: VM's funcionando</center></p> 
+<img src="Imagens_Projeto913/image3.png" alt="Imagens" title="Figura 17: VM's funcionando" width="800" height="auto" />
