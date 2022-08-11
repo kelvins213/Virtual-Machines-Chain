@@ -195,20 +195,39 @@ getent group
          
 * Após, aplicar as configurações utilizando o comando ```sudo netplan apply```.
 
-#### 5.1) Configuração de IP da VM1-PC1
+<p><center> Figura 18: Netplan</center></p> 
+<img src="Imagens_Projeto913/image32.png" alt="Imagens" title="Figura 18: Netplan" width="600" height="auto"/>
 
-<p><center> Figura 18: VM1-PC1</center></p> 
-<img src="Imagens_Projeto913/image32.png" alt="Imagens" title="Figura 18: VM1-PC1" width="600" height="auto"/>
+### **5) Instalação e Configuração do SSH**
 
-#### 5.2) Configuração de IP da VM1-PC3
+* Inserir os comandos para as atualizar as definições e pacote do ubuntu
 
-<p><center> Figura 19: VM1-PC3</center></p> 
-<img src="Imagens_Projeto913/image33.png" alt="Imagens" title="Figura 19: VM1-PC3" width="600" height="auto"/>
+```
+sudo apt update       
+sudo apt upgrade -y 
+```
 
-#### 5.3) Configuração de IP da VM1-PC3
+* Após, instalar o SSH, para isso utilize o comando ```sudo apt-get install openssh-server```
+* Após o processo, dar o comando ```systemctl status ssh``` para verificar o status do ssh
 
-<p><center> Figura 20: VM2-PC3</center></p> 
-<img src="Imagens_Projeto913/image50.png" alt="Imagens" title="Figura 20: VM2-PC3" width="600" height="auto"/>
+<p><center> Figura 19: Instalando o SSH</center></p> 
+<img src="Imagens_Projeto913/image21.png" alt="Imagens" title="Figura 19: Instalando o SSH" width="600" height="auto"/>
 
+<p><center> Figura 20: Verificando o Status do SSH</center></p> 
+<img src="Imagens_Projeto913/image25.png" alt="Imagens" title="Figura 20: Verificando o Status do SSH" width="600" height="auto"/>
 
+* Verificar o Status das Portas do Sistema, para isso utilize o comando ```netstat -an | grep LISTEN.```
 
+<p><center> Figura 21: Verificando o Status das Portas do Sistema</center></p> 
+<img src="Imagens_Projeto913/image35.png" alt="Imagens" title="Figura 21: Verificando o Status das Portas do Sistema" width="600" height="auto"/>
+
+* Ativar o UFW, para isso deve-se utilizar o comando ```sudo ufw allow ssh.```
+
+<p><center> Figura 22: Ativando o UFW</center></p> 
+<img src="Imagens_Projeto913/image2.png" alt="Imagens" title="Figura 22: Ativando o UFW" width="600" height="auto"/>
+
+* Verificar o status UFW , para isso deve-se utilizar o comando ```sudo ufw status```
+* Ativar o UFW, utilizando o comando ```sudo ufw enable```
+
+<p><center> Figura 23: Verificando e Ativando o UFW</center></p> 
+<img src="Imagens_Projeto913/image26.png" alt="Imagens" title="Figura 23: Verificando e Ativando o UFW" width="600" height="auto"/>
