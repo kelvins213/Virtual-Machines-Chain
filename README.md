@@ -92,3 +92,15 @@ sudo mkdir fulano
 ```
 <p><center> Figura 6:  Criando o Diretório /fulano.</center></p>   
 <img src="Imagens_Projeto913/image19.png" alt="Imagens" title="Figura 3:  Criando o Diretório /fulano." width="500" height="auto" />
+
+
+3.3) Adicionar o usuário "aluno" no grupo "redes"
+
+```
+sudo usermod -aG redes aluno
+```
+<p><center> Figura 7:  Adicionando "aluno" em "redes".</center></p>   
+<img src="Imagens_Projeto913/image20.png" alt="Imagens" title="Figura 7:  Adicionando "aluno" em "redes"." width="500" height="auto" />
+
+<p><center> Figura 8:  Adicionando "aluno" em "redes" - Inserindo Senha.</center></p> 
+<img src="Imagens_Projeto913/image39.png" alt="Imagens" title="Figura 8:  Adicionando "aluno" em "redes" - Inserindo Senha." width="500" height="auto" />
