@@ -205,7 +205,10 @@ getent group
 <p><center> Figura 19: VM1-PC3</center></p> 
 <img src="Imagens_Projeto913/image33.png" alt="Imagens" title="Figura 19: VM1-PC3" width="600" height="auto"/>
 
-#### 5.2) Configuração de IP da VM1-PC3
+#### 5.3) Configuração de IP da VM1-PC3
 
 <p><center> Figura 20: VM2-PC3</center></p> 
 <img src="Imagens_Projeto913/image50.png" alt="Imagens" title="Figura 20: VM2-PC3" width="600" height="auto"/>
+
+
+
