@@ -1,8 +1,8 @@
-# Projeto-De-Redes
-Projeto Do Segundo Bimestre
+## **Projeto De Redes Do Segundo Bimestre**
 
+** 1) Definindo as Configurações de Redes**
 ```
-(MODELO)Tabela 1: Definições de endereços IPs da Rede e Nomes de Hosts
+Tabela 1: Definições de endereços IPs da Rede e Nomes de Hosts
 ------------------------------------------------------------------------
 |  DESCRICAO  |       IP         |             HOSTNAME                |
 -----------------------------------------------------------------------|
