@@ -51,7 +51,10 @@ Tabela 1: Configurações de IPs da Rede e Nomes de Hosts
 sudo redes
 ```
 <p><center> Figura 1:  Entrando no usuário "redes".</center></p>   
-<img src="Imagens_Projeto913/Image1.png" alt="Imagens" title="Figura 1:  Entrando no usuário "redes"." width="500" height="auto" />
+<img src="Imagens_Projeto913/image1.png" alt="Imagens" title="Figura 1:  Entrando no usuário "redes"." width="500" height="auto" />
+
+<p><center> Figura 2:  Entrando no usuário "redes" - Inserindo a Senha.</center></p>   
+<img src="Imagens_Projeto913/image14.png" alt="Imagens" title="Figura 2:  Entrando no usuário "redes" - Inserindo a Senha." width="500" height="auto" />
 
 3.2) Verificar se possui os Diretórios
 
@@ -62,5 +65,30 @@ sudo redes
 
 3.3) Criar os diretórios
 
-* No nosso caso, é necessário
+* No nosso caso, é necessário criar os diretórios /labredes /VM /913 /fulano.
+* Para isso, basta utilizar o comando "sudo mkdir" e o nome do diretório.
 
+```
+sudo mkdir labredes
+```
+<p><center> Figura 3:  Criando o Diretório /labredes.</center></p>   
+<img src="Imagens_Projeto913/image17.png" alt="Imagens" title="Figura 3:  Criando o Diretório /labredes." width="500" height="auto" />
+
+
+```
+sudo mkdir VM
+```
+<p><center> Figura 4:  Criando o Diretório /VM.</center></p>   
+<img src="Imagens_Projeto913/image27.png" alt="Imagens" title="Figura 3:  Criando o Diretório /VM." width="500" height="auto" />
+
+```
+sudo mkdir 913
+```
+<p><center> Figura 5:  Criando o Diretório /913.</center></p>   
+<img src="Imagens_Projeto913/image22.png" alt="Imagens" title="Figura 3:  Criando o Diretório /913." width="500" height="auto" />
+
+```
+sudo mkdir fulano
+```
+<p><center> Figura 6:  Criando o Diretório /fulano.</center></p>   
+<img src="Imagens_Projeto913/image19.png" alt="Imagens" title="Figura 3:  Criando o Diretório /fulano." width="500" height="auto" />
