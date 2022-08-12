@@ -207,7 +207,7 @@ getent group
 <p><center> Figura 18: Netplan</center></p> 
 <img src="Imagens_Projeto913/image64.png" alt="Imagens" title="Figura 18: Netplan" width="600" height="auto"/>
 
-### **5) Instalação e Configuração do SSH**
+### **6) Instalação e Configuração do SSH**
 
 * Primeiramente, deve-se fazer algumas alterações:
 
@@ -254,7 +254,7 @@ sudo apt upgrade -y
 * Verificar o status UFW , para isso deve-se utilizar o comando ```sudo ufw status```
 * Ativar o Firewall, utilizando o comando ```sudo ufw enable```
 
-<p><center> Figura 23: Verificando e Ativando o SSH</center></p> 
+<p><center> Figura 23: Ativando o Firewall</center></p> 
 <img src="Imagens_Projeto913/image11.png" alt="Imagens" title="Figura 23: Verificando e Ativando o UFW" width="600" height="auto"/>
 
 * Após todo o processo, ao conectar, esta tela deve ser exibida.
@@ -268,7 +268,7 @@ sudo apt upgrade -y
 <img src="Imagens_Projeto913/ModoBridge.png" alt="Imagens" title="Figura 25: Alterar a Rede para modo Bridge" width="600" height="auto"/>
 
 
-### **6) Criação dos usuários nas VM's**
+### **7) Criação dos usuários nas VM's**
 
 * Em cada VM serão adicionados 4 usuários, sendo estes cada aluno do grupo.
 * Para isso, utiliza-se do comando ```sudo add``` +  ```<nome do aluno>```
@@ -289,7 +289,7 @@ sudo apt upgrade -y
 <img src="Imagens_Projeto913/image65.png" alt="Imagens" title="Figura 26: Listando Usuários" width="600" height="auto"/>
 
 
-### **7) Adicionando os Hosts**
+### **8) Adicionando os Hosts**
 
 * Para adicionar os hosts, utilizamos o comando ```sudo nano /etc/hosts```
 * Adicionamos de acordo com a tabela definida no inicio
@@ -299,16 +299,16 @@ sudo apt upgrade -y
 <img src="Imagens_Projeto913/image23.png" alt="Imagens" title="Figura 27: Listando Hosts" width="600" height="auto"/>
 
 
-### **8) Testes de Ping e Acesso**
+### **9) Testes de Ping e Acesso**
 
 * Todos os testes de ping para testar a conexão.
 
-1) Teste de Ping por IP
+#### 1) Teste de Ping por IP
 
 <p><center> Figura 28: Teste de Ping por IP </center></p> 
 <img src="Imagens_Projeto913/image57.png" alt="Imagens" title="Figura 28: Teste de Ping por IP" width="600" height="auto"/>
 
-2) Teste de Ping por Apelido 
+#### 2) Teste de Ping por Apelido 
 
 <p><center> Figura 29: Teste de Ping por Apelido - VM1-PC1 (Franca)</center></p> 
 <img src="Imagens_Projeto913/image35.png" alt="Imagens" title="Figura 29: Teste de Ping por Apelido - VM1-PC1 (Franca)" width="600" height="auto"/>
@@ -335,12 +335,12 @@ sudo apt upgrade -y
 <img src="Imagens_Projeto913/image58.png" alt="Imagens" title="Figura 36: Teste de Ping por Apelido - VM2-PC4 (Holanda)" width="600" height="auto"/>
 
 
-3) Teste de Ping por FQDN 
+#### 3) Teste de Ping por FQDN 
 
 <p><center> Figura 37: Teste de Ping por FQDN - VM1-PC2</center></p> 
 <img src="Imagens_Projeto913/image41.png" alt="Imagens" title="Figura 37: Teste de Ping por FQDN - VM1-PC2" width="600" height="auto"/>
 
-4) Teste de Acesso SSH ao Usuário por Hostname
+#### 4) Teste de Acesso SSH ao Usuário por Hostname
 
 <p><center> Figura 38: Teste de Acesso por Usuário por Hostname - VM1-PC1 (Julio)</center></p> 
 <img src="Imagens_Projeto913/image30.png" alt="Imagens" title="Figura 38: Teste de Acesso por Usuário por Hostname - VM1-PC1 (Julio)" width="600" height="auto"/>
