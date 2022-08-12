@@ -278,7 +278,7 @@ sudo apt upgrade -y
 ### **7) Criação dos usuários nas VM's**
 
 * Em cada VM serão adicionados 4 usuários, sendo estes cada aluno do grupo.
-* Para isso, utiliza-se do comando ```sudo add``` +  ```<nome do aluno>```
+* Para isso, utiliza-se do comando ```sudo adduser``` +  ```<nome do aluno>```
 
  ```
     sudo adduser daniel
