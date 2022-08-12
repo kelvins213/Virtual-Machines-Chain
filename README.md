@@ -228,7 +228,7 @@ sudo apt upgrade -y
 <p><center> Figura 21: Verificando o Status das Portas do Sistema</center></p> 
 <img src="Imagens_Projeto913/image35.png" alt="Imagens" title="Figura 21: Verificando o Status das Portas do Sistema" width="600" height="auto"/>
 
-* Ativar o UFW, para isso deve-se utilizar o comando ```sudo ufw allow ssh.```
+* Agora deve permitir o SSH no firewall, para isso deve-se utilizar o comando ```sudo ufw allow ssh.```
 
 <p><center> Figura 22: Ativando o UFW</center></p> 
 <img src="Imagens_Projeto913/image2.png" alt="Imagens" title="Figura 22: Ativando o UFW" width="600" height="auto"/>
