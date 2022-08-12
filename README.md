@@ -296,3 +296,17 @@ sudo apt upgrade -y
 <p><center> Figura 27: Listando Hosts </center></p> 
 <img src="Imagens_Projeto913/image23.png" alt="Imagens" title="Figura 27: Listando Hosts" width="600" height="auto"/>
 
+
+### **8) Testes de Ping**
+
+* Todos os testes de ping para testar a conexão.
+
+1) Teste de Ping por IP
+
+<p><center> Figura 28: Teste de Ping por IP </center></p> 
+<img src="Imagens_Projeto913/image57.png" alt="Imagens" title="Figura 28: Teste de Ping por IP" width="600" height="auto"/>
+
+2) Teste de Ping por Apelido 
+
+<p><center> Figura 29: Teste de Ping por Apelido - VM1-PC1 (Franca)</center></p> 
+<img src="Imagens_Projeto913/image57.png" alt="Imagens" title="Figura 29: Teste de Ping por Apelido - VM1-PC1 (Franca)" width="600" height="auto"/>
