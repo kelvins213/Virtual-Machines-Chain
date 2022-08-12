@@ -54,7 +54,7 @@ su redes
 <img src="Imagens_Projeto913/image1.png" alt="Imagens" title="Figura 1:  Entrando no usuário "redes"." width="500" height="auto" />
 
 <p><center> Figura 2:  Entrando no usuário "redes" - Inserindo a Senha.</center></p>   
-<img src="Imagens_Projeto913/image14.png" alt="Imagens" title="Figura 2:  Entrando no usuário "redes" - Inserindo a Senha." width="500" height="auto" />
+<img src="Imagens_Projeto913/image16.png" alt="Imagens" title="Figura 2:  Entrando no usuário "redes" - Inserindo a Senha." width="500" height="auto" />
 
 #### 3.2) Verificar se possui os Diretórios
 
@@ -72,26 +72,26 @@ su redes
 sudo mkdir labredes
 ```
 <p><center> Figura 3:  Criando o Diretório /labredes.</center></p>   
-<img src="Imagens_Projeto913/image17.png" alt="Imagens" title="Figura 3:  Criando o Diretório /labredes." width="500" height="auto" />
+<img src="Imagens_Projeto913/image20.png" alt="Imagens" title="Figura 3:  Criando o Diretório /labredes." width="500" height="auto" />
 
 
 ```
 sudo mkdir VM
 ```
 <p><center> Figura 4:  Criando o Diretório /VM.</center></p>   
-<img src="Imagens_Projeto913/image27.png" alt="Imagens" title="Figura 3:  Criando o Diretório /VM." width="500" height="auto" />
+<img src="Imagens_Projeto913/image32.png" alt="Imagens" title="Figura 3:  Criando o Diretório /VM." width="500" height="auto" />
 
 ```
 sudo mkdir 913
 ```
 <p><center> Figura 5:  Criando o Diretório /913.</center></p>   
-<img src="Imagens_Projeto913/image22.png" alt="Imagens" title="Figura 3:  Criando o Diretório /913." width="500" height="auto" />
+<img src="Imagens_Projeto913/image26.png" alt="Imagens" title="Figura 3:  Criando o Diretório /913." width="500" height="auto" />
 
 ```
 sudo mkdir fulano
 ```
 <p><center> Figura 6:  Criando o Diretório /fulano.</center></p>   
-<img src="Imagens_Projeto913/image19.png" alt="Imagens" title="Figura 3:  Criando o Diretório /fulano." width="500" height="auto" />
+<img src="Imagens_Projeto913/image22.png" alt="Imagens" title="Figura 3:  Criando o Diretório /fulano." width="500" height="auto" />
 
 
 #### 3.4) Adicionar o usuário "aluno" no grupo "redes"
@@ -100,10 +100,10 @@ sudo mkdir fulano
 sudo usermod -aG redes aluno
 ```
 <p><center> Figura 7:  Adicionando "aluno" em "redes".</center></p>   
-<img src="Imagens_Projeto913/image20.png" alt="Imagens" title="Figura 7:  Adicionando "aluno" em "redes"." width="500" height="auto" />
+<img src="Imagens_Projeto913/image24.png" alt="Imagens" title="Figura 7:  Adicionando "aluno" em "redes"." width="500" height="auto" />
 
 <p><center> Figura 8:  Adicionando "aluno" em "redes" - Inserindo Senha.</center></p> 
-<img src="Imagens_Projeto913/image39.png" alt="Imagens" title="Figura 8:  Adicionando "aluno" em "redes" - Inserindo Senha." width="500" height="auto" />
+<img src="Imagens_Projeto913/image47.png" alt="Imagens" title="Figura 8:  Adicionando "aluno" em "redes" - Inserindo Senha." width="500" height="auto" />
 
 * Modificar o dono da pasta labredes para o usuario nobody e grupo nogroup
 
@@ -111,7 +111,7 @@ sudo usermod -aG redes aluno
 sudo chown -R nobody:nogroup /labredes
 ```
 <p><center> Figura 9: Modificando o dono da Pasta</center></p> 
-<img src="Imagens_Projeto913/image43.png" alt="Imagens" title="Figura 9: Modificando o dono da Pasta" width="500" height="auto" />
+<img src="Imagens_Projeto913/image53.png" alt="Imagens" title="Figura 9: Modificando o dono da Pasta" width="500" height="auto" />
 
 * Alterando o proprietário de grupo do diretório /labredes para o grupo redes
 
@@ -119,7 +119,7 @@ sudo chown -R nobody:nogroup /labredes
 sudo chgrp -R redes /labredes
 ```
 <p><center> Figura 10: Alterando o proprietário</center></p> 
-<img src="Imagens_Projeto913/image41.png" alt="Imagens" title="Figura 10: Alterando o proprietário" width="500" height="auto" />
+<img src="Imagens_Projeto913/image49.png" alt="Imagens" title="Figura 10: Alterando o proprietário" width="500" height="auto" />
 
 * Alterando as permissões do diretório para escrita pelos membros do grupo
 ```
@@ -133,7 +133,7 @@ sudo chmod -R 771 /labredes
 getent group
 ```
 <p><center> Figura 12: Listando os Grupos</center></p> 
-<img src="Imagens_Projeto913/image31.png" alt="Imagens" title="Figura 12: Listando os Grupos" width="500" height="auto" />
+<img src="Imagens_Projeto913/image37.png" alt="Imagens" title="Figura 12: Listando os Grupos" width="500" height="auto" />
 
 <p><center> Figura 12.1: Listando os Grupos</center></p> 
 <img src="Imagens_Projeto913/GetentGroup.png" alt="Imagens" title="Figura 12.1: Listando os Grupos" width="800" height="auto" />
@@ -146,13 +146,13 @@ getent group
 * No VirtualBox, ir na aba ```Arquivos```, na segunda opção ```Importar Appliance```.
 
 <p><center> Figura 13: Importando Appliance</center></p> 
-<img src="Imagens_Projeto913/image36.jpg" alt="Imagens" title="Figura 13: Importando Appliance" width="500" height="auto" />
+<img src="Imagens_Projeto913/image43.jpg" alt="Imagens" title="Figura 13: Importando Appliance" width="500" height="auto" />
 
 * Na aba ```Importar Appliance```, deve-se inserir o diretório ```/labredes/images/original/ubuntu-server-mini.ova```.
 * Nas configurações de Pasta Padrão, deve-se inserir o diretório ```/labredes/VM/913/fulano```.
 
 <p><center> Figura 14: Importando Appliance - Configurações</center></p> 
-<img src="Imagens_Projeto913/image40.png" alt="Imagens" title="Figura 14: Importando Appliance - Configurações" width="800" height="auto" />
+<img src="Imagens_Projeto913/image48.png" alt="Imagens" title="Figura 14: Importando Appliance - Configurações" width="800" height="auto" />
 
 * Após as edições, clicar em ```Importar```.
 
@@ -164,10 +164,10 @@ getent group
 * Ir em ```Avançado``` e alterar o Endereço MAC.
 
 <p><center> Figura 15: Configurações de Rede das VM's</center></p> 
-<img src="Imagens_Projeto913/image5.png" alt="Imagens" title="Figura 15: Configurações de Rede das VM's" width="800" height="auto" />
+<img src="Imagens_Projeto913/image7.png" alt="Imagens" title="Figura 15: Configurações de Rede das VM's" width="800" height="auto" />
 
 <p><center> Figura 16: Configurações de Rede das VM's - MAC</center></p> 
-<img src="Imagens_Projeto913/image18.png" alt="Imagens" title="Figura 16: Configurações de Rede das VM's - MAC" width="800" height="auto" />
+<img src="Imagens_Projeto913/image21.png" alt="Imagens" title="Figura 16: Configurações de Rede das VM's - MAC" width="800" height="auto" />
 
 #### 4.3) Repetir os Passos Anteriores
 
@@ -203,7 +203,7 @@ getent group
 * Após, aplicar as configurações utilizando o comando ```sudo netplan apply```.
 
 <p><center> Figura 18: Netplan</center></p> 
-<img src="Imagens_Projeto913/image32.png" alt="Imagens" title="Figura 18: Netplan" width="600" height="auto"/>
+<img src="Imagens_Projeto913/image64.png" alt="Imagens" title="Figura 18: Netplan" width="600" height="auto"/>
 
 ### **5) Instalação e Configuração do SSH**
 
