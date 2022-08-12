@@ -148,7 +148,7 @@ getent group
 * No VirtualBox, ir na aba ```Arquivos```, na segunda opção ```Importar Appliance```.
 
 <p><center> Figura 13: Importando Appliance</center></p> 
-<img src="Imagens_Projeto913/image43.jpg" alt="Imagens" title="Figura 13: Importando Appliance" width="500" height="auto" />
+<img src="Imagens_Projeto913/importar-appliance.png" alt="Imagens" title="Figura 13: Importando Appliance" width="500" height="auto" />
 
 * Na aba ```Importar Appliance```, deve-se inserir o diretório ```/labredes/images/original/ubuntu-server-mini.ova```.
 * Nas configurações de Pasta Padrão, deve-se inserir o diretório ```/labredes/VM/913/fulano```.
