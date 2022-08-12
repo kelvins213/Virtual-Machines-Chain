@@ -195,7 +195,7 @@ getent group
      renderer: networkd
      ethernets:
        enp0s3:                           # nome da interface que está sendo configurada. Verifique com o comando 'ifconfig -a'
-         addresses: [192.168.13.<numeroVM1-PC1>/28]    # IP e Máscara do Host.
+         addresses: [192.168.13.<numeroVM-PC>/28]    # IP e Máscara do Host.
          gateway4: 192.168.13.1          # IP do Gateway
          dhcp4: false                  # dhcp4 false -> cliente DHCP está desabilitado, logo o utilizará o IP do campo 'addresses'
  ```
@@ -206,6 +206,22 @@ getent group
 <img src="Imagens_Projeto913/image32.png" alt="Imagens" title="Figura 18: Netplan" width="600" height="auto"/>
 
 ### **5) Instalação e Configuração do SSH**
+
+* Primeiramente, deve-se fazer algumas alterações:
+
+1) Alterar a placa de rede para ```NAT```
+2) Comentar as linhas de Endereço IP e Gateway e ativar o DHCP. 
+
+```
+   network:
+     version: 2
+     renderer: networkd
+     ethernets:
+       enp0s3:                           # nome da interface que está sendo configurada. Verifique com o comando 'ifconfig -a'
+         #addresses: [192.168.13.<numeroVM-PC>/28]    # IP e Máscara do Host.
+         #gateway4: 192.168.13.1          # IP do Gateway
+         dhcp4: true                  # dhcp4 false -> cliente DHCP está desabilitado, logo o utilizará o IP do campo 'addresses'
+ ```
 
 * Inserir os comandos para as atualizar as definições e pacote do ubuntu
 
@@ -243,3 +259,9 @@ sudo apt upgrade -y
 
 <p><center> Figura 24: SSH conectado </center></p> 
 <img src="Imagens_Projeto913/image16.png" alt="Imagens" title="Figura 24: SSH conectado" width="600" height="auto"/>
+
+* Lembrando que após todo o processo, para usufluir, deve-se trocar a rede para o modo bridge.
+
+<p><center> Figura 25: Alterar a Rede para modo Bridge </center></p> 
+<img src="Imagens_Projeto913/ModoBridge.png" alt="Imagens" title="Figura 25: Alterar a Rede para modo Bridge" width="600" height="auto"/>
+
