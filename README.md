@@ -179,7 +179,11 @@ getent group
 
 ### **5) Configurando o NETPLAN**
 
-* Utilizando o comando sudo nano.
+* Instalando as ferramntes de rede.
+
+```sudo apt install net-tools -y```
+
+* Após instalar, configurar utilizando o comando sudo nano + diretório do arquivo.
 
 ```sudo nano /etc/netplan/01-netcfg.yaml```
 
