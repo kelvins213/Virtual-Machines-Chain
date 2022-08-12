@@ -265,3 +265,15 @@ sudo apt upgrade -y
 <p><center> Figura 25: Alterar a Rede para modo Bridge </center></p> 
 <img src="Imagens_Projeto913/ModoBridge.png" alt="Imagens" title="Figura 25: Alterar a Rede para modo Bridge" width="600" height="auto"/>
 
+
+### **5) Criação dos usuários nas VM's**
+
+* Em cada VM são adicionados 4 usuário, sendo estes cada aluno do grupo.
+* Para isso, utiliza-se do comando ```sudo add``` +  ```<nome do aluno>```
+
+ ```
+    sudo adduser daniel
+    sudo adduser kelvin
+    sudo adduser julio
+    sudo adduser ricardo
+ ```
