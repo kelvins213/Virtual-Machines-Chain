@@ -364,7 +364,7 @@ sudo apt upgrade -y
 #### 5) Amostra da Topologia-Estrela
 
 * São Quatro computadores, todos possuindo duas VM's ligadas por modo Bridge.
-* Os computadores são ligados por rede interna a um switch, que garantirá a conexão.
+* Os computadores são ligados por um cabo de rede a um switch, que garantirá a conexão entre todos eles.
 * Todas tendo seus IP's definidos de acordo com a tabela 2.
 
 <p><center> Figura 42: Topologia na Sala</center></p> 
