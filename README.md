@@ -37,11 +37,13 @@ Tabela 1: Configurações de IPs da Rede e Nomes de Hosts
 -------------------------------------------------------------------------------------------------
 ```
 
-### **2) Definindo as Configurações de Hardware das VM's**
+### **2) Configurações de Hardware das VM's**
 
-* Memória de Video: 16Mb
-* Memória Principal: 512Mb
-* Armazenamento: 10Gb
+<img src="Imagens_Projeto913/Configuracoes1.png" alt="Imagens" title="Configurações de Hardware" width="500" height="auto" />
+
+<img src="Imagens_Projeto913/Configuracoes2.png" alt="Imagens" title="Configurações de Hardware" width="500" height="auto" />
+
+<img src="Imagens_Projeto913/Configuracoes4.png" alt="Imagens" title="Configurações de Hardware" width="500" height="auto" />
 
 ### **3) Criando os Diretórios**
 
