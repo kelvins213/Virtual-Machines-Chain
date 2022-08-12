@@ -309,4 +309,25 @@ sudo apt upgrade -y
 2) Teste de Ping por Apelido 
 
 <p><center> Figura 29: Teste de Ping por Apelido - VM1-PC1 (Franca)</center></p> 
-<img src="Imagens_Projeto913/image57.png" alt="Imagens" title="Figura 29: Teste de Ping por Apelido - VM1-PC1 (Franca)" width="600" height="auto"/>
+<img src="Imagens_Projeto913/image35.png" alt="Imagens" title="Figura 29: Teste de Ping por Apelido - VM1-PC1 (Franca)" width="600" height="auto"/>
+
+<p><center> Figura 30: Teste de Ping por Apelido - VM2-PC1 (Italia)</center></p> 
+<img src="Imagens_Projeto913/image5.png" alt="Imagens" title="Figura 30: Teste de Ping por Apelido - VM2-PC1 (Italia)" width="600" height="auto"/>
+
+<p><center> Figura 31: Teste de Ping por Apelido - VM1-PC2 (Roma)</center></p> 
+<img src="Imagens_Projeto913/image52.png" alt="Imagens" title="Figura 31: Teste de Ping por Apelido - VM1-PC2 (Roma)" width="600" height="auto"/>
+
+<p><center> Figura 32: Teste de Ping por Apelido - VM2-PC2 (Grecia)</center></p> 
+<img src="Imagens_Projeto913/image51.png" alt="Imagens" title="Figura 32: Teste de Ping por Apelido - VM2-PC2 (Grecia)" width="600" height="auto"/>
+
+<p><center> Figura 33: Teste de Ping por Apelido - VM1-PC3 (Cuba)</center></p> 
+<img src="Imagens_Projeto913/image56.png" alt="Imagens" title="Figura 33: Teste de Ping por Apelido - VM1-PC3 (Cuba)" width="600" height="auto"/>
+
+<p><center> Figura 34: Teste de Ping por Apelido - VM2-PC3 (Mexico)</center></p> 
+<img src="Imagens_Projeto913/image17.png" alt="Imagens" title="Figura 34: Teste de Ping por Apelido - VM2-PC3 (Mexico)" width="600" height="auto"/>
+
+<p><center> Figura 35: Teste de Ping por Apelido - VM1-PC4 (Brasil)</center></p> 
+<img src="Imagens_Projeto913/image45.png" alt="Imagens" title="Figura 35: Teste de Ping por Apelido - VM1-PC4 (Brasil)" width="600" height="auto"/>
+
+<p><center> Figura 36: Teste de Ping por Apelido - VM2-PC4 (Holanda)</center></p> 
+<img src="Imagens_Projeto913/image58.png" alt="Imagens" title="Figura 36: Teste de Ping por Apelido - VM2-PC4 (Holanda)" width="600" height="auto"/>
