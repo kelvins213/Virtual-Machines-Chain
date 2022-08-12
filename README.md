@@ -234,7 +234,7 @@ sudo apt upgrade -y
 <img src="Imagens_Projeto913/image2.png" alt="Imagens" title="Figura 22: Ativando o UFW" width="600" height="auto"/>
 
 * Verificar o status UFW , para isso deve-se utilizar o comando ```sudo ufw status```
-* Ativar o UFW, utilizando o comando ```sudo ufw enable```
+* Ativar o Firewall, utilizando o comando ```sudo ufw enable```
 
 <p><center> Figura 23: Verificando e Ativando o UFW</center></p> 
 <img src="Imagens_Projeto913/image26.png" alt="Imagens" title="Figura 23: Verificando e Ativando o UFW" width="600" height="auto"/>
