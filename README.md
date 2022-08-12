@@ -353,3 +353,8 @@ sudo apt upgrade -y
 
 <p><center> Figura 41: Teste de Acesso por Usuário por Hostname - VM1-PC4 (Kelvin)</center></p> 
 <img src="Imagens_Projeto913/image61.png" alt="Imagens" title="Figura 41: Teste de Acesso por Usuário por Hostname - VM1-PC4 (Kelvin)" width="600" height="auto"/>
+
+#### 5) Amostra da Topologia-Estrela
+
+<p><center> Figura 42: Topologia na Sala</center></p> 
+<img src="Imagens_Projeto913/Topologia.jpg" alt="Imagens" title="Figura 42: Topologia na Sala" width="800" height="auto"/>
