@@ -248,13 +248,13 @@ sudo apt upgrade -y
 
 * Agora deve permitir o SSH no firewall, para isso deve-se utilizar o comando ```sudo ufw allow ssh.```
 
-<p><center> Figura 22: Ativando o UFW</center></p> 
+<p><center> Figura 22: Ativando o SSH no Firewall</center></p> 
 <img src="Imagens_Projeto913/image2.png" alt="Imagens" title="Figura 22: Ativando o UFW" width="600" height="auto"/>
 
 * Verificar o status UFW , para isso deve-se utilizar o comando ```sudo ufw status```
 * Ativar o Firewall, utilizando o comando ```sudo ufw enable```
 
-<p><center> Figura 23: Verificando e Ativando o UFW</center></p> 
+<p><center> Figura 23: Verificando e Ativando o SSH</center></p> 
 <img src="Imagens_Projeto913/image11.png" alt="Imagens" title="Figura 23: Verificando e Ativando o UFW" width="600" height="auto"/>
 
 * Após todo o processo, ao conectar, esta tela deve ser exibida.
