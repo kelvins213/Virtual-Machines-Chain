@@ -43,7 +43,7 @@ Tabela 1: Configurações de IPs da Rede e Nomes de Hosts
 
 <img src="Imagens_Projeto913/Configuracoes2.png" alt="Imagens" title="Configurações de Hardware" width="500" height="auto" />
 
-<img src="Imagens_Projeto913/Configuracoes4.png" alt="Imagens" title="Configurações de Hardware" width="500" height="auto" />
+<img src="Imagens_Projeto913/Configuracoes3.png" alt="Imagens" title="Configurações de Hardware" width="500" height="auto" />
 
 ### **3) Criando os Diretórios**
 
