@@ -136,7 +136,7 @@ getent group
 <img src="Imagens_Projeto913/image31.png" alt="Imagens" title="Figura 12: Listando os Grupos" width="500" height="auto" />
 
 <p><center> Figura 12.1: Listando os Grupos</center></p> 
-<img src="Imagens_Projeto913/GetentGroup.png" alt="Imagens" title="Figura 12.1: Listando os Grupos" width="500" height="auto" />
+<img src="Imagens_Projeto913/GetentGroup.png" alt="Imagens" title="Figura 12.1: Listando os Grupos" width="800" height="auto" />
 
 
 ### **4) Criando as VM's**
