@@ -126,7 +126,7 @@ sudo chgrp -R redes /labredes
 sudo chmod -R 771 /labredes 
 ```
 <p><center> Figura 11: Alterando as permissões dos diretórios</center></p> 
-<img src="Imagens_Projeto913/image24.png" alt="Imagens" title="Figura 11: Alterando o proprietário -R 771" width="500" height="auto" />
+<img src="Imagens_Projeto913/image28.png" alt="Imagens" title="Figura 11: Alterando o proprietário -R 771" width="500" height="auto" />
 
 * Listando os Grupos
 ```
@@ -179,7 +179,7 @@ getent group
 
 ### **5) Configurando o NETPLAN**
 
-* Instalando as ferramntes de rede.
+* Instalando as ferramentas de rede.
 
 ```sudo apt install net-tools -y```
 
@@ -234,15 +234,15 @@ sudo apt upgrade -y
 * Após o processo, dar o comando ```systemctl status ssh``` para verificar o status do ssh
 
 <p><center> Figura 19: Instalando o SSH</center></p> 
-<img src="Imagens_Projeto913/image21.png" alt="Imagens" title="Figura 19: Instalando o SSH" width="600" height="auto"/>
+<img src="Imagens_Projeto913/image25.png" alt="Imagens" title="Figura 19: Instalando o SSH" width="600" height="auto"/>
 
 <p><center> Figura 20: Verificando o Status do SSH</center></p> 
-<img src="Imagens_Projeto913/image25.png" alt="Imagens" title="Figura 20: Verificando o Status do SSH" width="600" height="auto"/>
+<img src="Imagens_Projeto913/image29.png" alt="Imagens" title="Figura 20: Verificando o Status do SSH" width="600" height="auto"/>
 
 * Verificar o Status das Portas do Sistema, para isso utilize o comando ```netstat -an | grep LISTEN.```
 
 <p><center> Figura 21: Verificando o Status das Portas do Sistema</center></p> 
-<img src="Imagens_Projeto913/image35.png" alt="Imagens" title="Figura 21: Verificando o Status das Portas do Sistema" width="600" height="auto"/>
+<img src="Imagens_Projeto913/image14.png" alt="Imagens" title="Figura 21: Verificando o Status das Portas do Sistema" width="600" height="auto"/>
 
 * Agora deve permitir o SSH no firewall, para isso deve-se utilizar o comando ```sudo ufw allow ssh.```
 
@@ -253,12 +253,12 @@ sudo apt upgrade -y
 * Ativar o Firewall, utilizando o comando ```sudo ufw enable```
 
 <p><center> Figura 23: Verificando e Ativando o UFW</center></p> 
-<img src="Imagens_Projeto913/image26.png" alt="Imagens" title="Figura 23: Verificando e Ativando o UFW" width="600" height="auto"/>
+<img src="Imagens_Projeto913/image11.png" alt="Imagens" title="Figura 23: Verificando e Ativando o UFW" width="600" height="auto"/>
 
 * Após todo o processo, ao conectar, esta tela deve ser exibida.
 
 <p><center> Figura 24: SSH conectado </center></p> 
-<img src="Imagens_Projeto913/image16.png" alt="Imagens" title="Figura 24: SSH conectado" width="600" height="auto"/>
+<img src="Imagens_Projeto913/image19.png" alt="Imagens" title="Figura 24: SSH conectado" width="600" height="auto"/>
 
 * Lembrando que após todo o processo, para usufluir, deve-se trocar a rede para o modo bridge.
 
