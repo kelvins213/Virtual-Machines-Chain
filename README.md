@@ -266,7 +266,7 @@ sudo apt upgrade -y
 <img src="Imagens_Projeto913/ModoBridge.png" alt="Imagens" title="Figura 25: Alterar a Rede para modo Bridge" width="600" height="auto"/>
 
 
-### **5) Criação dos usuários nas VM's**
+### **6) Criação dos usuários nas VM's**
 
 * Em cada VM serão adicionados 4 usuários, sendo estes cada aluno do grupo.
 * Para isso, utiliza-se do comando ```sudo add``` +  ```<nome do aluno>```
@@ -280,3 +280,19 @@ sudo apt upgrade -y
  
  <p><center> Figura 25: Adicionando usuários </center></p> 
 <img src="Imagens_Projeto913/image6.png" alt="Imagens" title="Figura 25: Adicionando usuários" width="600" height="auto"/>
+
+* Pode-se usar o comando ```cat /etc/passwd``` para listar todos os usuários
+
+<p><center> Figura 26: Listando Usuários </center></p> 
+<img src="Imagens_Projeto913/image65.png" alt="Imagens" title="Figura 26: Listando Usuários" width="600" height="auto"/>
+
+
+### **7) Adicionando os Hosts**
+
+* Para adicionar os hosts, utilizamos o comando ```sudo nano /etc/hosts```
+* Adicionamos de acordo com a tabela definida no inicio
+* Após adicionar, pode-se conferir usando o comando ```cat /etc/hosts```
+
+<p><center> Figura 27: Listando Hosts </center></p> 
+<img src="Imagens_Projeto913/image65.png" alt="Imagens" title="Figura 27: Listando Hosts" width="600" height="auto"/>
+
