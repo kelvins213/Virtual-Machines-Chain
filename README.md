@@ -16,7 +16,7 @@ Tabela 1: Definições de endereços IPs da Rede e Nomes de Hosts
 -----------------------------------------------------------------------|
 | rede        | 192.168.13.0     |                                     |
 | máscara     | 255.255.255.240  |                                     |
-| Gateway     | 192.168.13.16    |                                     |
+| Gateway     | 192.168.13.1     |                                     |
 | VM1-PC1     | 192.168.13.1     |   vm1pc1-913-grupo1.ifalara.net     |
 | VM2-PC1     | 192.168.13.2     |   vm2pc1-913-grupo1.ifalara.net     |
 | VM1-PC2     | 192.168.13.3     |   vm1pc2-913-grupo1.ifalara.net     |
@@ -362,6 +362,10 @@ sudo apt upgrade -y
 <img src="Imagens_Projeto913/image61.png" alt="Imagens" title="Figura 41: Teste de Acesso por Usuário por Hostname - VM1-PC4 (Kelvin)" width="600" height="auto"/>
 
 #### 5) Amostra da Topologia-Estrela
+
+* São Quatro computadores, todos possuindo duas VM's ligadas por modo Bridge.
+* Os computadores são ligados por rede interna a um switch, que garantirá a conexão.
+* Todas tendo seus IP's definidos de acordo com a tabela 2.
 
 <p><center> Figura 42: Topologia na Sala</center></p> 
 <img src="Imagens_Projeto913/Topologia.jpg" alt="Imagens" title="Figura 42: Topologia na Sala" width="800" height="auto"/>
