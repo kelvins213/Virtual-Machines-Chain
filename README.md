@@ -297,7 +297,7 @@ sudo apt upgrade -y
 <img src="Imagens_Projeto913/image23.png" alt="Imagens" title="Figura 27: Listando Hosts" width="600" height="auto"/>
 
 
-### **8) Testes de Ping**
+### **8) Testes de Ping e Acesso**
 
 * Todos os testes de ping para testar a conexão.
 
@@ -331,3 +331,23 @@ sudo apt upgrade -y
 
 <p><center> Figura 36: Teste de Ping por Apelido - VM2-PC4 (Holanda)</center></p> 
 <img src="Imagens_Projeto913/image58.png" alt="Imagens" title="Figura 36: Teste de Ping por Apelido - VM2-PC4 (Holanda)" width="600" height="auto"/>
+
+
+3) Teste de Ping por FQDN 
+
+<p><center> Figura 37: Teste de Ping por FQDN - VM1-PC2</center></p> 
+<img src="Imagens_Projeto913/image41.png" alt="Imagens" title="Figura 37: Teste de Ping por FQDN - VM1-PC2" width="600" height="auto"/>
+
+4) Teste de Acesso SSH ao Usuário por Hostname
+
+<p><center> Figura 38: Teste de Acesso por Usuário por Hostname - VM1-PC1 (Julio)</center></p> 
+<img src="Imagens_Projeto913/image30.png" alt="Imagens" title="Figura 38: Teste de Acesso por Usuário por Hostname - VM1-PC1 (Julio)" width="600" height="auto"/>
+
+<p><center> Figura 39: Teste de Acesso por Usuário por Hostname - VM2-PC2 (Daniel)</center></p> 
+<img src="Imagens_Projeto913/image66.png" alt="Imagens" title="Figura 39: Teste de Acesso por Usuário por Hostname - VM2-PC2 (Daniel)" width="600" height="auto"/>
+
+<p><center> Figura 40: Teste de Acesso por Usuário por Hostname - VM1-PC3 (Ricardo)</center></p> 
+<img src="Imagens_Projeto913/image68.png" alt="Imagens" title="Figura 40: Teste de Acesso por Usuário por Hostname - VM1-PC3 (Ricardo)" width="600" height="auto"/>
+
+<p><center> Figura 41: Teste de Acesso por Usuário por Hostname - VM1-PC4 (Kelvin)</center></p> 
+<img src="Imagens_Projeto913/image61.png" alt="Imagens" title="Figura 41: Teste de Acesso por Usuário por Hostname - VM1-PC4 (Kelvin)" width="600" height="auto"/>
