@@ -368,7 +368,7 @@ sudo apt upgrade -y
 <img src="Imagens_Projeto913/ssh user ip.png" alt="Imagens" title="Figura 43: Teste de Acesso por Usuário e IP - VM2-PC3 (Ricardo)" width="600" height="auto"/>
 
 <p><center> Figura 44: Teste de Acesso por Usuário e FQDN - VM1-PC2 (Daniel)</center></p> 
-<img src="Imagens_Projeto913/ssh user FQDN.png" alt="Imagens" title="Figura 44: Teste de Acesso por Usuário e FQDN - VM1-PC2 (Daniel)" width="600" height="auto"/>
+<img src="Imagens_Projeto913/ssh user FQDN - Editado.png" alt="Imagens" title="Figura 44: Teste de Acesso por Usuário e FQDN - VM1-PC2 (Daniel)" width="600" height="auto"/>
 
 #### 5) Amostra da Topologia-Estrela
 
