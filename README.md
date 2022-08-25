@@ -361,6 +361,12 @@ sudo apt upgrade -y
 <p><center> Figura 41: Teste de Acesso por Usuário por Hostname - VM1-PC4 (Kelvin)</center></p> 
 <img src="Imagens_Projeto913/image61.png" alt="Imagens" title="Figura 41: Teste de Acesso por Usuário por Hostname - VM1-PC4 (Kelvin)" width="600" height="auto"/>
 
+<p><center> Figura 42: Teste de Acesso por Usuário e Apelido - VM2-PC2 (Grecia)</center></p> 
+<img src="Imagens_Projeto913/ssh user alias.png" alt="Imagens" title="Figura 42: Teste de Acesso por Usuário e Apelido - VM2-PC2 (Grecia)" width="600" height="auto"/>
+
+<p><center> Figura 43: Teste de Acesso por Usuário e IP - VM2-PC3 (Ricardo)</center></p> 
+<img src="Imagens_Projeto913/ssh user ip.png" alt="Imagens" title="Figura 43: Teste de Acesso por Usuário e IP - VM2-PC3 (Ricardo)" width="600" height="auto"/>
+
 #### 5) Amostra da Topologia-Estrela
 
 * São Quatro computadores, todos possuindo duas VM's ligadas por modo Bridge.
