@@ -46,6 +46,8 @@ Tabela 1: Configurações de IPs da Rede e Nomes de Hosts
 
 ### **2) Configurações de Hardware das VM's**
 
+* Todos possuindo as mesmas configuroções, a padrão do sistema.
+
 <img src="Imagens_Projeto913/Configuracoes1.png" alt="Imagens" title="Configurações de Hardware" width="500" height="auto" />
 
 <img src="Imagens_Projeto913/Configuracoes2.png" alt="Imagens" title="Configurações de Hardware" width="500" height="auto" />
