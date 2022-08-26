@@ -15,16 +15,17 @@ Tabela 1: Definições de endereços IPs da Rede e Nomes de Hosts
 |  DESCRICAO  |       IP         |             HOSTNAME                |
 -----------------------------------------------------------------------|
 | rede        | 192.168.13.0     |                                     |
+| faixa Ip's  | 192.168.13.[0-15]|                                     |
 | máscara     | 255.255.255.240  |                                     |
 | Gateway     | 192.168.13.1     |                                     |
-| VM1-PC1     | 192.168.13.1     |   vm1pc1-913-grupo1.ifalara.net     |
-| VM2-PC1     | 192.168.13.2     |   vm2pc1-913-grupo1.ifalara.net     |
-| VM1-PC2     | 192.168.13.3     |   vm1pc2-913-grupo1.ifalara.net     |
-| VM2-PC2     | 192.168.13.4     |   vm2pc2-913-grupo1.ifalara.net     |
-| VM1-PC3     | 192.168.13.5     |   vm1pc3-913-grupo1.ifalara.net     |
-| VM2-PC3     | 192.168.13.6     |   vm2pc3-913-grupo1.ifalara.net     |
-| VM1-PC4     | 192.168.13.7     |   vm1pc4-913-grupo1.ifalara.net     |
-| VM2-PC4     | 192.168.13.8     |   vm2pc4-913-grupo1.ifalara.net     |
+| vm1-pc1     | 192.168.13.1     |   vm1pc1-913-grupo1.ifalara.net     |
+| vm2-pc1     | 192.168.13.2     |   vm2pc1-913-grupo1.ifalara.net     |
+| vm1-pc2     | 192.168.13.3     |   vm1pc2-913-grupo1.ifalara.net     |
+| vm2-pc2     | 192.168.13.4     |   vm2pc2-913-grupo1.ifalara.net     |
+| vm1-pc3     | 192.168.13.5     |   vm1pc3-913-grupo1.ifalara.net     |
+| vm2-pc3     | 192.168.13.6     |   vm2pc3-913-grupo1.ifalara.net     |
+| vm1-pc4     | 192.168.13.7     |   vm1pc4-913-grupo1.ifalara.net     |
+| vm2-pc4     | 192.168.13.8     |   vm2pc4-913-grupo1.ifalara.net     |
 ------------------------------------------------------------------------
 ```
 
@@ -33,14 +34,14 @@ Tabela 1: Configurações de IPs da Rede, Nomes de Hosts, FQDN e Apelido
 -------------------------------------------------------------------------------------------------
 | DESCRIÇÃO |      IP      |  Nome do Host   |          FQDN                          | Apelido |
 -------------------------------------------------------------------------------------------------
-| VM1-PC1   | 192.168.13.1 | VM1-PC1-Julio   | VM1-PC1-Julio.grupo1-913.ifalara.net   | França  |
-| VM2-PC1   | 192.168.13.2 | VM2-PC1-Julio   | VM2-PC1-Julio.grupo1-913.ifalara.net   | Italia  |
-| VM1-PC2   | 192.168.13.3 | VM1-PC2-Daniel  | VM1-PC2-Daniel.grupo1-913.ifalara.net  |  Roma   |
-| VM2-PC2   | 192.168.13.4 | VM2-PC2-Daniel  | VM2-PC2-Daniel.grupo1-913.ifalara.net  | Grecia  |
-| VM1-PC3   | 192.168.13.5 | VM1-PC3-Ricardo | VM1-PC3-Ricardo.grupo1-913.ifalara.net |  Cuba   |
-| VM2-PC3   | 192.168.13.6 | VM2-PC3-Ricardo | VM2-PC3-Ricardo.grupo1-913.ifalara.net | Mexico  |
-| VM1-PC4   | 192.168.13.7 | VM1-PC4-Kelvin  | VM1-PC4-Kelvin.grupo1-913.ifalara.net  | Brasil  |
-| VM2-PC4   | 192.168.13.8 | VM2-PC4-Kelvin  | VM2-PC4-Kelvin.grupo1-913.ifalara.net  | Holanda |
+| vm1-pc1   | 192.168.13.1 | vm1-pc1-julio   | vm1-pc1-julio.grupo1-913.ifalara.net   | frança  |
+| vm2-pc1   | 192.168.13.2 | vm2-pc1-julio   | vm2-pc1-julio.grupo1-913.ifalara.net   | italia  |
+| vm1-pc2   | 192.168.13.3 | vm1-pc2-daniel  | vm1-pc2-daniel.grupo1-913.ifalara.net  | roma    |
+| vm2-pc2   | 192.168.13.4 | vm2-pc2-daniel  | vm2-pc2-daniel.grupo1-913.ifalara.net  | grecia  |
+| vm1-pc3   | 192.168.13.5 | vm1-pc3-ricardo | vm1-pc3-ricardo.grupo1-913.ifalara.net | cuba    |
+| vm2-pc3   | 192.168.13.6 | vm2-pc3-ricardo | vm2-pc3-ricardo.grupo1-913.ifalara.net | mexico  |
+| vm1-pc4   | 192.168.13.7 | vm1-pc4-kelvin  | vm1-pc4-kelvin.grupo1-913.ifalara.net  | brasil  |
+| vm2-pc4   | 192.168.13.8 | vm2-pc4-kelvin  | vm2-pc4-kelvin.grupo1-913.ifalara.net  | holanda |
 -------------------------------------------------------------------------------------------------
 ```
 
