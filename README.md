@@ -164,7 +164,7 @@ getent group
 * Nas configurações de Pasta Padrão, deve-se inserir o diretório ```/labredes/VM/913/fulano```.
 
 <p><center> Figura 14: Importando Appliance - Configurações</center></p> 
-<img src="Imagens_Projeto913/image48.png" alt="Imagens" title="Figura 14: Importando Appliance - Configurações" width="800" height="auto" />
+<img src="Imagens_Projeto913/importar-appliance2.png" alt="Imagens" title="Figura 14: Importando Appliance - Configurações" width="800" height="auto" />
 
 * Após as edições, clicar em ```Importar```.
 
