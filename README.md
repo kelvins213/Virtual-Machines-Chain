@@ -29,7 +29,7 @@ Tabela 1: Definições de endereços IPs da Rede e Nomes de Hosts
 ```
 
 ```
-Tabela 1: Configurações de IPs da Rede e Nomes de Hosts
+Tabela 1: Configurações de IPs da Rede, Nomes de Hosts, FQDN e Apelido
 -------------------------------------------------------------------------------------------------
 | DESCRIÇÃO |      IP      |  Nome do Host   |          FQDN                          | Apelido |
 -------------------------------------------------------------------------------------------------
