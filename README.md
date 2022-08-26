@@ -48,11 +48,11 @@ Tabela 1: Configurações de IPs da Rede e Nomes de Hosts
 
 * Todas as VM's possuindo as mesmas configurações de hardware padrões.
 
-<img src="Imagens_Projeto913/Configuracoes1.png" alt="Imagens" title="Configurações de Hardware" width="500" height="auto" />
+<img src="Imagens_Projeto913/Configuracoes1.png" alt="Imagens" title="Configurações de Hardware" width="700" height="auto" />
 
-<img src="Imagens_Projeto913/Configuracoes2.png" alt="Imagens" title="Configurações de Hardware" width="500" height="auto" />
+<img src="Imagens_Projeto913/Configuracoes2.png" alt="Imagens" title="Configurações de Hardware" width="700" height="auto" />
 
-<img src="Imagens_Projeto913/Configuracoes3.png" alt="Imagens" title="Configurações de Hardware" width="500" height="auto" />
+<img src="Imagens_Projeto913/Configuracoes3.png" alt="Imagens" title="Configurações de Hardware" width="700" height="auto" />
 
 ### **3) Criando os Diretórios**
 
