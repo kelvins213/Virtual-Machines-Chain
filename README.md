@@ -33,7 +33,7 @@ Tabela 1: Configurações de IPs da Rede, Nomes de Hosts, FQDN e Apelido
 -------------------------------------------------------------------------------------------------
 | DESCRIÇÃO |      IP      |  Nome do Host   |          FQDN                          | Apelido |
 -------------------------------------------------------------------------------------------------
-| VM1-PC1   | 192.168.13.1 | VM1-PC4-Julio   | VM1-PC1-Julio.grupo1-913.ifalara.net   | França  |
+| VM1-PC1   | 192.168.13.1 | VM1-PC1-Julio   | VM1-PC1-Julio.grupo1-913.ifalara.net   | França  |
 | VM2-PC1   | 192.168.13.2 | VM2-PC1-Julio   | VM2-PC1-Julio.grupo1-913.ifalara.net   | Italia  |
 | VM1-PC2   | 192.168.13.3 | VM1-PC2-Daniel  | VM1-PC2-Daniel.grupo1-913.ifalara.net  |  Roma   |
 | VM2-PC2   | 192.168.13.4 | VM2-PC2-Daniel  | VM2-PC2-Daniel.grupo1-913.ifalara.net  | Grecia  |
