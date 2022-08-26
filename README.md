@@ -306,7 +306,7 @@ sudo apt upgrade -y
 * Após adicionar, pode-se conferir usando o comando ```cat /etc/hosts```
 
 <p><center> Figura 27: Listando Hosts </center></p> 
-<img src="Imagens_Projeto913/image23.png" alt="Imagens" title="Figura 27: Listando Hosts" width="600" height="auto"/>
+<img src="Imagens_Projeto913/hosts.jpeg" alt="Imagens" title="Figura 27: Listando Hosts" width="600" height="auto"/>
 
 
 ### **9) Testes de Ping e Acesso**
